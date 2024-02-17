@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de números</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Número:
+                <input type="number" name="txtnum" id='txtnum'>
+                <input type="button" value="adicionar" class="button" onclick="adicionar()">
+            </p>   
+            <select value="valor1" name="tabela" id="vertab" size="10"><option>Digite acima e adicione os números</option></select>
+        </div>    
+        
+        <div>
+            <input type="button" value="Finalizar" class="button" onclick="finalizar()">
+            <input type="button" value="Limpar" id="button_clean" class="button" onclick="limpar()">
+        </div>
+
+        <div id="res"></div>
+    </section>
+
+    <footer>
+     <p class="copy">&copy; SBloedow</p>   
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
